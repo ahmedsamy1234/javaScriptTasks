@@ -1,0 +1,43 @@
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShowInfo</title>
+
+ 
+    <script>
+        function increaseCount() {
+            var today1 = new Date();
+            today1.setMonth(today1.getMonth() + 1);
+            var x;
+            if ((GetCookie("Counter")) == "NaN") {
+                x = 1;
+               
+            } else {
+
+                x = parseInt(GetCookie("Counter"));
+            }
+            x=x+1;
+           
+            CreateCookie("Counter", x, today1);
+           
+        }
+
+
+    </script>
+</head>
+
+<body onload="increaseCount()">
+    <img id="genderImage" > 
+   
+    <script src="../JavaScript/CookieLibrary.js"> </script>
+
+    <script src="../JavaScript/ShowInfo.js"></script>
+</body>
+
+</html>
