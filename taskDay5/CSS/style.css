@@ -1,0 +1,28 @@
+.he{
+    color: red;
+}
+
+
+
+.he2{
+    background-color: aqua;
+}
+
+
+
+img{
+    position: fixed;
+    left: 50px;
+    top: 20px;
+    width: 200px;
+}
+
+div{
+    margin: 10px auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    width: 50%;
+}
+
+
