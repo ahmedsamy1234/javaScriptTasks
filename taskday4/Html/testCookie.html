@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookies</title>
+
+
+
+</head>
+
+<body>
+
+
+    <form  name="myForm" action="./ShowInfo.html">
+        <input id="i1" type="text" name="userName" placeholder="Name"><br>
+        <input id="i2" type="text" name="userAge" placeholder="Age"><br>
+
+        <input type="radio" id="Male" name="Gender" value="Male"><label for="Male"><img src="../Images/male.jpg" alt="w3resource logo" /></label><br> 
+        <input  type="radio" id="Female" name="Gender" value="Female"> <label for="Female"><img src="../Images/female.jpg" alt="w3resource logo" /></label><br>
+        <select id="mySelect">
+            <optgroup label="Color">
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+            </optgroup>
+        <input type="submit" value="Register" onclick="Reg()">
+
+        <script  src="../JavaScript/CookieLibrary.js"> </script>
+        <script  src="../JavaScript/cookie.js"> </script>
+    </form>
+
+</body>
+
+</html>
